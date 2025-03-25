@@ -1,0 +1,74 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Pacifico&family=Oswald:wght@300;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.header__link {
+  color: #700750;
+  text-transform: capitalize;
+}
+
+.main__title {
+  color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main__paragraph {
+  color: #808080;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cool-block {
+  text-align: center;
+}
+
+.cool-title {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  color: #ff5733;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: wavy underline;
+}
+
+.paragraph-1 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(118, 29, 44);
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: dotted underline rgba(255, 8, 0, 0.9);
+}
+
+.paragraph-2 {
+  font-family: "CustomFont", fantasy;
+  font-weight: bold;
+  font-style: italic;
+  color: #0077cc;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.paragraph-3 {
+  font-style: oblique;
+  text-decoration: overline;
+  text-decoration-color: #ff5733;
+  text-shadow: 2px 2px 5px #ffe600;
+  color: rgb(30, 106, 36);
+}
+
+.footer__text {
+  font-family: "Bytesized";
+  font-size: 25px;
+  color: #700750;
+  text-align: center;
+  line-height: 10;
+}
